@@ -1,0 +1,73 @@
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 80vw;
+}
+
+/* Common padding for main containers of the page */
+header, main, footer {
+	padding: 1em;
+}
+
+/* Header/banner styles, to set the background and other properties for content elements in the page banner, including styling for the navigation links */
+header.banner {
+	color: steelblue;
+	border-bottom: 10px solid gold;
+}
+a:link,a:visited{
+	color: steelblue;
+	text-decoration:none;
+   }
+a:hover,a:focus{
+	color:#8a05be ；
+   }
+/* Footer styles */
+footer.pg-footer {
+	font-size: smaller;
+	border-top: 1px solid steelblue;
+	color: #636e72;
+	margin: 4em 0 0 0;
+}
+footer.pg-footer p {
+	padding: 1.5em 0;
+}
+/* search styles */
+#search-form{
+	text-align: center;
+}
+#selectbar{
+	text-align: center;
+	border: 1px solid steelblue;
+	height:50px;
+	width: 40%;
+	border-radius: 5px;
+}
+#sf-keywords{
+	height:50px;
+	width: 70%;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid steelblue;
+}
+#sf-keywords:focus{
+	background-color: #f6e58d;
+}
+#search-buttom{
+	text-align: center;
+	height:50px;
+	width: 70%;
+	margin-top:30px;
+	border-radius: 5px;
+	border:none
+	
+}
+#search-buttom:hover{
+	text-align: center;
+	background-color:darkgray;
+}
+
+/*
+ * 	For search results styling, I have used colours from the following website:
+ *	https://flatuicolors.com/palette/us 
+ */
